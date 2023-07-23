@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dog Food Donation</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Dog Food Donation🐾</h1>
+    </header>
+    <main>
+        <section id="donation-form">
+            <h2>Make a Donation</h2>
+        
+            <form>
+                <label for="donor-name">Your Name:</label>
+                <input type="text" id="donor-name" required>
+
+                <label for="donor-name">Your city:</label>
+                <input type="text" id="donor-city" required>
+                
+                <label for="dog-food-quantity">Quantity (in kg):</label>
+                <input type="number" id="dog-food-quantity" required>
+                
+                <button type="submit" id="donate-btn">Donate</button>
+            </form>
+        </section>
+        <section id="donation-list">
+            <h2>Recent Donations</h2>
+            <ul id="donation-items">
+                <!-- The JavaScript code will populate this list -->
+            </ul>
+        </section>
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>
+
